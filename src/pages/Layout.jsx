@@ -8,9 +8,9 @@ import {
   Sparkles, TrendingUp, CreditCard, Wrench, Menu, X, Hammer, FileText, User, MessageCircle, Image, Rocket
 } from "lucide-react";
 import ThemeToggle from "../components/ThemeToggle";
-import RoutePreloader from "./components/optimization/RoutePreloader";
-import ImagePreloader from "./components/optimization/ImagePreloader"; // Added import
-import PerformanceMonitor from "./components/optimization/PerformanceMonitor"; // Added import
+import RoutePreloader from "../components/optimization/RoutePreloader";
+import ImagePreloader from "../components/optimization/ImagePreloader"; // Added import
+import PerformanceMonitor from "../components/optimization/PerformanceMonitor"; // Added import
 import { Button } from "@/components/ui/button";
 import { useQuery } from '@tanstack/react-query';
 import { base44 } from '@/api/base44Client';
@@ -23,18 +23,18 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { Toaster } from "@/components/ui/sonner";
-import ConnectionStatus from "./components/ConnectionStatus";
-import CookieConsent from "./components/CookieConsent";
-import OfflineIndicator from "./components/OfflineIndicator";
-import SkipToContent from "./components/ui/SkipToContent";
-import ErrorBoundary from "./components/ErrorBoundary";
-import PageViewTracker from "./components/analytics/PageViewTracker";
-import ContinuousMonitor from "./components/monitoring/ContinuousMonitor";
-import AlertSystem from "./components/monitoring/AlertSystem";
-import AccessLogger from "./components/auth/AccessLogger";
-import PushOptIn from "./components/notifications/PushOptIn";
-import SupportChat from "./components/support/SupportChat";
-import FeedbackCollector from "./components/feedback/FeedbackCollector";
+import ConnectionStatus from "../components/ConnectionStatus";
+import CookieConsent from "../components/CookieConsent";
+import OfflineIndicator from "../components/OfflineIndicator";
+import SkipToContent from "../components/ui/SkipToContent";
+import ErrorBoundary from "../components/ErrorBoundary";
+import PageViewTracker from "../components/analytics/PageViewTracker";
+import ContinuousMonitor from "../components/monitoring/ContinuousMonitor";
+import AlertSystem from "../components/monitoring/AlertSystem";
+import AccessLogger from "../components/auth/AccessLogger";
+import PushOptIn from "../components/notifications/PushOptIn";
+import SupportChat from "../components/support/SupportChat";
+import FeedbackCollector from "../components/feedback/FeedbackCollector";
 
 export default function Layout({ children, currentPageName }) {
   const location = useLocation();
