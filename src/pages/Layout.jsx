@@ -7,7 +7,7 @@ import {
   Home, Users, Calendar, Briefcase, UserCog, Compass,
   Sparkles, TrendingUp, CreditCard, Wrench, Menu, X, Hammer, FileText, User, MessageCircle, Image, Rocket
 } from "lucide-react";
-import ThemeToggle from "./components/ThemeToggle";
+import ThemeToggle from "../components/ThemeToggle";
 import RoutePreloader from "./components/optimization/RoutePreloader";
 import ImagePreloader from "./components/optimization/ImagePreloader"; // Added import
 import PerformanceMonitor from "./components/optimization/PerformanceMonitor"; // Added import
