@@ -71,6 +71,9 @@ export default function Layout({ children, currentPageName }) {
       '/MeuPerfilPrestador': 'Meu Perfil de Prestador - Trancoso Experience',
       '/MeusServicos': 'Meus Serviços - Trancoso Experience',
       '/DeployDashboard': 'Deploy Dashboard - Trancoso Experience',
+      '/servicos/eletricista-trancoso': 'Eletricista em Trancoso | Serviços Elétricos com Prestadores Locais',
+      '/servicos/piscineiro-trancoso': 'Piscineiro em Trancoso | Limpeza e Manutenção de Piscinas',
+      '/servicos/diarista-trancoso': 'Diarista em Trancoso | Limpeza com Prestadores Locais de Confiança',
     };
     
     const pageDescriptions = {
@@ -94,6 +97,9 @@ export default function Layout({ children, currentPageName }) {
       '/MeuPerfilPrestador': 'Atualize suas informações pessoais e de serviço para atrair mais clientes.',
       '/MeusServicos': 'Gerencie seus serviços, adicione novos ou edite os existentes para sua oferta em Trancoso.',
       '/DeployDashboard': 'Monitore e gerencie os deploys da sua aplicação.',
+      '/servicos/eletricista-trancoso': 'Encontre eletricista em Trancoso para instalação, manutenção e revisão elétrica em casas, comércios e imóveis de temporada. Peça orçamento rápido com prestadores locais de confiança.',
+      '/servicos/piscineiro-trancoso': 'Encontre piscineiro em Trancoso para limpeza, tratamento químico e manutenção de piscinas em casas, pousadas e imóveis de temporada. Peça orçamento rápido com prestadores locais.',
+      '/servicos/diarista-trancoso': 'Encontre diarista em Trancoso para limpeza residencial, casas de temporada, pousadas e imóveis. Prestadoras locais verificadas, atendimento ágil. Peça orçamento agora.',
     };
     
     // Normalize path to handle /Home as / for SEO purposes if needed, otherwise use full path
